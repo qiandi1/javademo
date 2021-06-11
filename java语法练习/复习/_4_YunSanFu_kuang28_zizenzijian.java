@@ -1,4 +1,4 @@
-public class _4_YunSanFu {
+public class _4_YunSanFu_kuang28_zizenzijian {
     public static void main(String[] args) {
         int a = 5;
         int b = ++a;//先运算，再赋值（a先自增为6，再赋值6给b）
