@@ -45,5 +45,44 @@ public class _kuang_29__6_11 {
         c = a >>> 2;//0000 1111=15
         System.out.println("a>>>2="+c);
 
+        //赋值运算符
+        System.out.println("---赋值运算符（菜鸟）---");
+        int a2 = 10;
+        int b2 = 20;
+        int c2 = 0;
+        System.out.println("已知a2=10,b2=20");
+        c2=a2+b2;  //"="
+        System.out.println("c2 =a2+b2 ="+c2);
+        c2 += a2;  //+=（加和） 等价于c2=c2+a2
+        System.out.println("c2 +=a2 ="+c2);
+        c2 -= a2;  //-=（减和）
+        System.out.println("c2 -=a2 ="+c2);
+        c2 *= a2;  //*=(乘和)  等价c2=c2*a2
+        System.out.println("c2*=a2,则c2="+c2);
+        a2 =10;
+        b2 =15;
+        System.out.println("重新赋值a2=10,b2=15");
+        c2 /= a2;// /=(除和)
+        System.out.println("c2/=a2,则c2="+c2);
+        // %=（取模和）c%=a等价于c=c%a
+        // <<=(左移位)C<<=2等价于C=C<<2
+        // >>=(右移位)C>>=2等价于C=C>>2
+        // ＆=(按位与)C＆= 2等价于C=C＆2
+        //^=(按位异或)C^=2等价于C=C^2
+        //|=(按位或)C|=2等价于C=C|2
+
+        System.out.println("---条件运算符（三元运算符）");
+        int a3,b3;
+        a3=10;
+        b3=(a3==1)?20:30;//若a3等于1，则b3=20,否则a3=30
+        System.out.println("a3="+b3);
+
+        System.out.println("---instanceof运算符---");
+        //格式：(对象)instanceof(类或接口)
+        String name = "qiandi";
+        boolean result = name instanceof String;//判断对象name是否String类类型
+        System.out.println("name是否String类型："+result);//返回ture
+
+
     }
 }
